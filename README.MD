@@ -32,3 +32,4 @@ contains detailed guides, hands-on coding exercises, and thorough explanations o
 | Index Array                           | Reorders an array such that the value at each index matches its corresponding index. | O(n)       | `cd 01-arrays/07-index-array` <br> `go run main.go`                      |
 | Sorting Array (Cycle method)          | Sorts an array containing numbers from 1 to n in ascending order.                    | O(n²)      | `cd 01-arrays/08-sorting-from-1-to-n` <br> `go run main.go`              |
 | Smallest Positive Missing Number      | Finds the smallest positive missing number in an array.                              | O(n)       | `cd 01-arrays/09-smallest-positive-missing-number` <br> `go run main.go` |
+| Maximum Minimum Array                 | Reorders an array such that maximum and minimum elements alternate.                  | O(n)       | `cd 01-arrays/10-maximum-minimum-array` <br> `go run main.go`            |

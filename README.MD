@@ -41,3 +41,4 @@ contains detailed guides, hands-on coding exercises, and thorough explanations o
 |--------------------------------|--------------------------------------------------------------------------|------------------|--------------------------------------------------------------------|
 | Convert Decimal to Hexadecimal | Recursively converts and prints a decimal integer in hexadecimal format. | O(log n)         | `cd 02-recursion/01-print-base-16-integers` <br> `go run main.go`  |
 | GCD Calculation                | Recursively calculates the greatest common divisor of two integers.      | O(log min(m, n)) | `cd 02-recursion/02-greatest-common-divisor` <br> `go run main.go` |
+| Fibonacci Calculation          | Recursively calculates the nth Fibonacci number.                         | O(2^n)           | `cd 02-recursion/03-fibonacci-numbers` <br> `go run main.go`       |

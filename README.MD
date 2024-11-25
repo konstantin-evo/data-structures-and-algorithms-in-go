@@ -10,11 +10,11 @@ contains detailed guides, hands-on coding exercises, and thorough explanations o
 ## Table of Contents
 
 - [Arrays](#arrays)
-- Recursive Functions
+- [Recursive Functions](#recursive-functions)
 - Approaches to Solve Algorithm Design Problems
 - Data Structures in Go
 - Sorting
-- Stack
+- [Stack](#stack-operations)
 - Queue
 - Tree
 - Binary Search Tree
@@ -45,3 +45,9 @@ contains detailed guides, hands-on coding exercises, and thorough explanations o
 | All Permutations of a List     | Recursively generates and prints all permutations of an integer list.    | O(n!)            | `cd 02-recursion/04-all-permutations-of-an-integer-list` <br> `go run main.go` |
 | Tower of Hanoi                 | Recursively solves the Tower of Hanoi problem for n disks.               | O(2^n)           | `cd 02-recursion/05-tower-of-hanoi` <br> `go run main.go`                      |
 | Binary Search                  | Recursively searches for a value in a sorted array.                      | O(log n)         | `cd 02-recursion/06-binary-search` <br> `go run main.go`                       |
+
+## Stack Operations
+
+| Task              | Description                    | Complexity                                                                                                      | How to Run                                               |
+|-------------------|--------------------------------|-----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
+| Stack Using Array | Implements a stack using Array | Push(): O(1) <br> Pop(): O(1) <br> Top(): O(1) <br> IsEmpty(): O(1) <br> Length(): O(1) <br> Print(): O(n) <br> | `cd 03-stack/01-stack-using-array` <br> `go run main.go` |

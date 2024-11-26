@@ -48,6 +48,7 @@ contains detailed guides, hands-on coding exercises, and thorough explanations o
 
 ## Stack Operations
 
-| Task              | Description                    | Complexity                                                                                                      | How to Run                                               |
-|-------------------|--------------------------------|-----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
-| Stack Using Array | Implements a stack using Array | Push(): O(1) <br> Pop(): O(1) <br> Top(): O(1) <br> IsEmpty(): O(1) <br> Length(): O(1) <br> Print(): O(n) <br> | `cd 03-stack/01-stack-using-array` <br> `go run main.go` |
+| Task                    | Description                          | Complexity                                                                                                      | How to Run                                                     |
+|-------------------------|--------------------------------------|-----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
+| Stack Using Array       | Implements a stack using Array       | Push(): O(1) <br> Pop(): O(1) <br> Top(): O(1) <br> IsEmpty(): O(1) <br> Length(): O(1) <br> Print(): O(n) <br> | `cd 03-stack/01-stack-using-array` <br> `go run main.go`       |
+| Stack Using Linked List | Implements a stack using Linked List | Same as above                                                                                                   | `cd 03-stack/02-stack-using-linked-list` <br> `go run main.go` |

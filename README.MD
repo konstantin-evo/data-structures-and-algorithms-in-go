@@ -1,4 +1,3 @@
-
 <p align="center">
   <img src="src/img/header.png" alt="Logo" width="70%">
 </p>
@@ -10,11 +9,11 @@ contains detailed guides, hands-on coding exercises, and thorough explanations o
 ## Table of Contents
 
 - [Arrays](#arrays)
-- Recursive Functions
+- [Recursive Functions](#recursive-functions)
 - Approaches to Solve Algorithm Design Problems
 - Data Structures in Go
 - Sorting
-- Stack
+- [Stack](#stack-operations)
 - Queue
 - Tree
 - Binary Search Tree
@@ -45,3 +44,31 @@ contains detailed guides, hands-on coding exercises, and thorough explanations o
 | All Permutations of a List     | Recursively generates and prints all permutations of an integer list.    | O(n!)            | `cd 02-recursion/04-all-permutations-of-an-integer-list` <br> `go run main.go` |
 | Tower of Hanoi                 | Recursively solves the Tower of Hanoi problem for n disks.               | O(2^n)           | `cd 02-recursion/05-tower-of-hanoi` <br> `go run main.go`                      |
 | Binary Search                  | Recursively searches for a value in a sorted array.                      | O(log n)         | `cd 02-recursion/06-binary-search` <br> `go run main.go`                       |
+
+## Stack Operations
+
+| Task                    | Description                                                      | Complexity                                                                                                      | How to Run                                                           |
+|-------------------------|------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|
+| Stack Using Array       | Implements a stack using Array                                   | Push(): O(1) <br> Pop(): O(1) <br> Top(): O(1) <br> IsEmpty(): O(1) <br> Length(): O(1) <br> Print(): O(n) <br> | `cd 03-stack/01-stack-using-array` <br> `go run main.go`             |
+| Stack Using Linked List | Implements a stack using Linked List                             | Same as above                                                                                                   | `cd 03-stack/02-stack-using-linked-list` <br> `go run main.go`       |
+| Sorted Insert           | Inserts an element in sorted order                               | O(n)                                                                                                            | `cd 03-stack/03-sorted-insert` <br> `go run main.go`                 |
+| Sort Stack              | Sorts a stack in ascending order                                 | O(n^2)                                                                                                          | `cd 03-stack/04-sort-stack` <br> `go run main.go`                    |
+| Bottom Insert           | Inserts an element at the bottom of the stack                    | O(n)                                                                                                            | `cd 03-stack/05-bottom-insert` <br> `go run main.go`                 |
+| Reverse Stack           | Reverses the order of elements in a stack                        | O(n²)                                                                                                           | `cd 03-stack/06-reverse-stack` `<br> go run main.go`                 |
+| Reverse K Elements      | Reverses the first k elements in a stack                         | O(n)                                                                                                            | `cd 03-stack/07-reverse-k-elements-in-a-stack` <br> `go run main.go` |
+| Balanced Parentheses    | Checks if parentheses in an expression are balanced <sup>*</sup> | O(n)                                                                                                            | `cd 03-stack/08-balanced-parentheses` <br> `go run main.go`          |
+
+<sup>*</sup> Tasks with a note contain additional explanations.
+
+---
+
+### Balanced Parentheses
+
+The closing symbol should be matched with the most recently seen opening symbol. For example, `{()}` is
+legal, `{() ({})}` is legal, but `{((}` and `{(})` are not legal.
+
+**Input**  
+A string consisting solely of `(`, `)`, `{`, `}`, `[`, and `]`.
+
+**Output**  
+Return `true` if the parentheses are balanced. Otherwise, return `false`.

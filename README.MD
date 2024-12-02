@@ -15,7 +15,7 @@ contains detailed guides, hands-on coding exercises, and thorough explanations o
 - Sorting
 - [Stack](#stack-operations)
 - Queue
-- Tree
+- [Tree](#tree-operations)
 - Binary Search Tree
 
 ## Arrays
@@ -72,3 +72,9 @@ A string consisting solely of `(`, `)`, `{`, `}`, `[`, and `]`.
 
 **Output**  
 Return `true` if the parentheses are balanced. Otherwise, return `false`.
+
+## Tree Operations
+
+| Task                 | Description                                                       | Complexity | How to Run                                                 |
+|----------------------|-------------------------------------------------------------------|------------|------------------------------------------------------------|
+| Complete Binary Tree | Constructs a complete binary tree from an array using level-order | O(n)       | `cd 05-tree/01-complete-binary-tree` <br> `go run main.go` |

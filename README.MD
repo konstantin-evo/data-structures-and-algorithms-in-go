@@ -75,7 +75,8 @@ Return `true` if the parentheses are balanced. Otherwise, return `false`.
 
 ## Tree Operations
 
-| Task                     | Description                                                       | Complexity | How to Run                                                      |
-|--------------------------|-------------------------------------------------------------------|------------|-----------------------------------------------------------------|
-| Complete Binary Tree     | Constructs a complete binary tree from an array using level-order | O(n)       | `cd 05-tree/01-complete-binary-tree` <br> `go run main.go`      |
-| Print PreOrder Traversal | Implements and prints the preorder traversal of a binary tree     | O(n)       | `cd 05-tree/02-print-pre-order-traversal` <br> `go run main.go` |
+| Task                      | Description                                                       | Complexity | How to Run                                                       |
+|---------------------------|-------------------------------------------------------------------|------------|------------------------------------------------------------------|
+| Complete Binary Tree      | Constructs a complete binary tree from an array using level-order | O(n)       | `cd 05-tree/01-complete-binary-tree` <br> `go run main.go`       |
+| Print PreOrder Traversal  | Implements and prints the preorder traversal of a binary tree     | O(n)       | `cd 05-tree/02-print-pre-order-traversal` <br> `go run main.go`  |
+| Print PostOrder Traversal | Implements and prints the postorder traversal of a binary tree    | O(n)       | `cd 05-tree/03-print-post-order-traversal` <br> `go run main.go` |

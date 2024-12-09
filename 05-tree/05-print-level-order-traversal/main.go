@@ -20,7 +20,7 @@ func (t *Tree) PrintBreadthFirst() {
 	queue := &Queue{}
 	queue.Enqueue(t.root)
 
-	// Process nodes until the queue is empty
+	// Process nodes until the queue isn't empty
 	for !queue.IsEmpty() {
 		// Dequeue the next node and cast it to *Node
 		current := queue.Dequeue().(*Node)

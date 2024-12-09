@@ -82,3 +82,30 @@ Return `true` if the parentheses are balanced. Otherwise, return `false`.
 | PostOrder Traversal     | Implements and prints the postorder traversal of a binary tree    | O(n)       | `cd 05-tree/03-print-post-order-traversal` <br> `go run main.go`  |
 | InOrder Traversal       | Implements and prints the inorder traversal of a binary tree      | O(n)       | `cd 05-tree/04-print-in-order-traversal` <br> `go run main.go`    |
 | Breadth-First Traversal | Implements and prints the level-order traversal of a binary tree  | O(n)       | `cd 05-tree/05-print-level-order-traversal` <br> `go run main.go` |
+
+### Comparison of tree traversals
+
+Example Tree Structure:
+
+```
+          1
+        /   \
+       2     3
+      / \   / \
+     4   5 6   7
+```
+
+| **Traversal Type**                        | **Description**                                                                             | **Order**                   | **Example Output** (Given Tree: 1 → 2, 3 → 4, 5, 6, 7) | **Type** |
+|-------------------------------------------|---------------------------------------------------------------------------------------------|-----------------------------|--------------------------------------------------------|----------|
+| **PreOrder Traversal**                    | Visit the root, then recursively traverse the left subtree, followed by the right subtree.  | Root → Left → Right         | **1, 2, 4, 5, 3, 6, 7**                                | **DFS**  |
+| **InOrder Traversal**                     | Recursively traverse the left subtree, visit the root, then the right subtree.              | Left → Root → Right         | **4, 2, 5, 1, 6, 3, 7**                                | **DFS**  |
+| **PostOrder Traversal**                   | Recursively traverse the left subtree, then the right subtree, and visit the root.          | Left → Right → Root         | **4, 5, 2, 6, 7, 3, 1**                                | **DFS**  |
+| **Breadth-First Traversal (Level Order)** | Traverse the tree level by level, starting at the root and moving to each subsequent level. | Level 1 → Level 2 → Level 3 | **1, 2, 3, 4, 5, 6, 7**                                | **BFS**  |
+
+This makes it clear which traversal types are part of **DFS** or **BFS**.
+Observations:
+
+- **PreOrder** is useful for creating a copy of the tree.
+- **InOrder** is commonly used for binary search trees to retrieve elements in sorted order.
+- **PostOrder** is helpful for deleting or freeing all nodes in a tree.
+- **Breadth-First (Level Order)** provides an overview of the tree level by level.

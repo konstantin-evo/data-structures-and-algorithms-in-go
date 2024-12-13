@@ -75,14 +75,15 @@ Return `true` if the parentheses are balanced. Otherwise, return `false`.
 
 ## Tree Operations
 
-| Task                    | Description                                                       | Complexity | How to Run                                                                |
-|-------------------------|-------------------------------------------------------------------|------------|---------------------------------------------------------------------------|
-| Complete Binary Tree    | Constructs a complete binary tree from an array using level-order | O(n)       | `cd 05-tree/01-complete-binary-tree` <br> `go run main.go`                |
-| PreOrder Traversal      | Implements and prints the preorder traversal of a binary tree     | O(n)       | `cd 05-tree/02-print-pre-order-traversal` <br> `go run main.go`           |
-| PostOrder Traversal     | Implements and prints the postorder traversal of a binary tree    | O(n)       | `cd 05-tree/03-print-post-order-traversal` <br> `go run main.go`          |
-| InOrder Traversal       | Implements and prints the inorder traversal of a binary tree      | O(n)       | `cd 05-tree/04-print-in-order-traversal` <br> `go run main.go`            |
-| Breadth-First Traversal | Implements and prints the level-order traversal of a binary tree  | O(n)       | `cd 05-tree/05-print-level-order-traversal` <br> `go run main.go`         |
-| DepthFirst Traversal    | Implements and prints the depth-first traversal without recursion | O(n)       | `cd 05-tree/06-print-depth-first-without-recursion` <br> `go run main.go` |
+| Task                                      | Description                                                       | Complexity | How to Run                                                                            |
+|-------------------------------------------|-------------------------------------------------------------------|------------|---------------------------------------------------------------------------------------|
+| Complete Binary Tree                      | Constructs a complete binary tree from an array using level-order | O(n)       | `cd 05-tree/01-complete-binary-tree` <br> `go run main.go`                            |
+| PreOrder Traversal                        | Implements and prints the preorder traversal of a binary tree     | O(n)       | `cd 05-tree/02-print-pre-order-traversal` <br> `go run main.go`                       |
+| PostOrder Traversal                       | Implements and prints the postorder traversal of a binary tree    | O(n)       | `cd 05-tree/03-print-post-order-traversal` <br> `go run main.go`                      |
+| InOrder Traversal                         | Implements and prints the inorder traversal of a binary tree      | O(n)       | `cd 05-tree/04-print-in-order-traversal` <br> `go run main.go`                        |
+| Breadth-First Traversal                   | Implements and prints the level-order traversal of a binary tree  | O(n)       | `cd 05-tree/05-print-level-order-traversal` <br> `go run main.go`                     |
+| DepthFirst Traversal                      | Implements and prints the depth-first traversal without recursion | O(n)       | `cd 05-tree/06-print-depth-first-without-recursion` <br> `go run main.go`             |
+| Level-Order Line-by-Line Using Two Queues | Implements level-order traversal line by line using two queues    | O(n)       | `cd 05-tree/07-print-level-order-line-by-line-using-two-queues` <br> `go run main.go` |
 
 ### Comparison of tree traversals
 

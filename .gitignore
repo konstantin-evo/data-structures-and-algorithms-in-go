@@ -24,3 +24,11 @@
 /03-stack/07-reverse-k-elements-in-a-stack/.idea/
 /03-stack/06-reverse-stack/.idea/
 /03-stack/08-balanced-parentheses/.idea/
+/05-tree/01-complete-binary-tree/.idea/
+/05-tree/02-print-pre-order-traversal/.idea/
+/05-tree/03-print-post-order-traversal/.idea/
+/05-tree/04-print-in-order-traversal/.idea/
+/05-tree/05-print-level-order-traversal/.idea/
+/05-tree/06-print-depth-first-without-recursion/.idea/
+/05-tree/07-print-level-order-line-by-line-using-two-queues/.idea/
+/05-tree/08-print-a-tree-in-level-order-line-by-line-using-a-queue/.idea/

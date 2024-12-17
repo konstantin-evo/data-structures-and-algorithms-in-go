@@ -112,3 +112,7 @@ Observations:
 - **Breadth-First (Level Order)** provides an overview of the tree level by level.
 
 ## Sorting
+
+| No.  | Task        | Description                                                   | Complexity | How to Run                                           |
+|------|-------------|---------------------------------------------------------------|------------|------------------------------------------------------|
+| 7-01 | Bubble Sort | Implements bubble sort with ascending and descending options  | O(n^2)     | `cd 07-sorting/01-bubble-sort` <br> `go run main.go` |

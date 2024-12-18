@@ -113,6 +113,7 @@ Observations:
 
 ## Sorting
 
-| No.  | Task        | Description                                                   | Complexity | How to Run                                           |
-|------|-------------|---------------------------------------------------------------|------------|------------------------------------------------------|
-| 7-01 | Bubble Sort | Implements bubble sort with ascending and descending options  | O(n^2)     | `cd 07-sorting/01-bubble-sort` <br> `go run main.go` |
+| No.  | Task                 | Description                                                  | Complexity | How to Run                                                    |
+|------|----------------------|--------------------------------------------------------------|------------|---------------------------------------------------------------|
+| 7-01 | Bubble Sort          | Implements bubble sort with ascending and descending options | O(n^2)     | `cd 07-sorting/01-bubble-sort` <br> `go run main.go`          |
+| 7-02 | Modified Bubble Sort | Implements modified bubble sort with optimized performance   | O(n^2)     | `cd 07-sorting/02-modified-bubble-sort` <br> `go run main.go` |

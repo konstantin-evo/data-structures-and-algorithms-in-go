@@ -118,3 +118,4 @@ Observations:
 | 7-01 | Bubble Sort          | Implements bubble sort with ascending and descending options    | O(n^2)     | `cd 07-sorting/01-bubble-sort` <br> `go run main.go`          |
 | 7-02 | Modified Bubble Sort | Implements modified bubble sort with optimized performance      | O(n^2)     | `cd 07-sorting/02-modified-bubble-sort` <br> `go run main.go` |
 | 7-03 | Insertion Sort       | Implements insertion sort with ascending and descending options | O(n^2)     | `cd 07-sorting/03-insertion-sort` <br> `go run main.go`       |
+| 7-04 | Selection Sort       | Implements selection sort with ascending option                 | O(n^2)     | `cd 07-sorting/04-selection-sort` <br> `go run main.go`       |

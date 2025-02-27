@@ -32,6 +32,7 @@ contains detailed guides, hands-on coding exercises, and thorough explanations o
 | 1-10 | Maximum Minimum Array                 | Reorders an array such that maximum and minimum elements alternate.                                                                | O(n)       | `cd 01-arrays/10-maximum-minimum-array` <br> `go run main.go`            |
 | 1-11 | Array Index Maximum Difference        | Finds the maximum difference between indices where the element at the higher index is greater than the element at the lower index. | O(n)       | `cd 01-arrays/11-array-index-maximum-difference` <br> `go run main.go`   |
 | 1-12 | Partitioning of 0s and 1s             | Sorts an array containing only 0s and 1s with minimum swaps.                                                                       | O(n)       | `cd 01-arrays/12-partitioning-of-0s-and-1s` <br> `go run main.go`        |
+| 1-13 | Dutch National Flag Problem           | Sorts an array containing 0s, 1s, and 2s using Dijkstra's three-way partitioning method.                                           | O(n)       | `cd 01-arrays/13-dutch-national-flag-problem` <br> `go run main.go`      |
 
 ## Recursive Functions
 

@@ -113,12 +113,31 @@ Observations:
 
 ## Sorting
 
-| No.  | Task                 | Description                                                     | Complexity                           | How to Run                                                    |
-|------|----------------------|-----------------------------------------------------------------|--------------------------------------|---------------------------------------------------------------|
-| 7-01 | Bubble Sort          | Implements bubble sort with ascending and descending options    | O(n^2)                               | `cd 07-sorting/01-bubble-sort` <br> `go run main.go`          |
-| 7-02 | Modified Bubble Sort | Implements modified bubble sort with optimized performance      | O(n^2)                               | `cd 07-sorting/02-modified-bubble-sort` <br> `go run main.go` |
-| 7-03 | Insertion Sort       | Implements insertion sort with ascending and descending options | O(n^2)                               | `cd 07-sorting/03-insertion-sort` <br> `go run main.go`       |
-| 7-04 | Selection Sort       | Implements selection sort                                       | O(n^2)                               | `cd 07-sorting/04-selection-sort` <br> `go run main.go`       |
-| 7-05 | Merge Sort           | Implements merge sort                                           | O(n * log n)                         | `cd 07-sorting/05-merge-sort` <br> `go run main.go`           |
-| 7-06 | Quick Sort           | Implements quick sort with efficient partitioning               | avg: O(n * log n) <br> worst: O(n^2) | `cd 07-sorting/06-quick-sort` <br> `go run main.go`           |
-| 7-07 | Counting Sort        | Implements counting sort for integer arrays                     | O(n + k)                             | `cd 07-sorting/07-count-sort` <br> `go run main.go`           |
+| No.  | Task                 | Description                                                                                                                                                                                  | How to Run                                                    |
+|------|----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| 7-01 | Bubble Sort          | Implements bubble sort with ascending and descending options. <br> **Comment:** Repeatedly swaps adjacent elements if they are in the wrong order. Inefficient for large datasets.           | `cd 07-sorting/01-bubble-sort` <br> `go run main.go`          |
+| 7-02 | Modified Bubble Sort | Implements modified bubble sort with optimized performance. <br> **Comment:** Stops early if no swaps occur, making it more efficient in nearly sorted arrays.                               | `cd 07-sorting/02-modified-bubble-sort` <br> `go run main.go` |
+| 7-03 | Insertion Sort       | Implements insertion sort with ascending and descending options. <br> **Comment:** Builds a sorted array one element at a time by inserting each element into its correct position.          | `cd 07-sorting/03-insertion-sort` <br> `go run main.go`       |
+| 7-04 | Selection Sort       | Implements selection sort. <br> **Comment:** Repeatedly selects the smallest (or largest) element from the unsorted portion and swaps it into place.                                         | `cd 07-sorting/04-selection-sort` <br> `go run main.go`       |
+| 7-05 | Merge Sort           | Implements merge sort. <br> **Comment:** Recursively divides the array into halves, sorts them, and merges them back together.                                                               | `cd 07-sorting/05-merge-sort` <br> `go run main.go`           |
+| 7-06 | Quick Sort           | Implements quick sort with efficient partitioning. <br> **Comment:** Uses a pivot to partition the array into smaller and larger elements, then sorts recursively.                           | `cd 07-sorting/06-quick-sort` <br> `go run main.go`           |
+| 7-07 | Counting Sort        | Implements counting sort for integer arrays. <br> **Comment:** Counts occurrences of each element and reconstructs the sorted array based on counts. Efficient for small ranges of integers. | `cd 07-sorting/07-count-sort` <br> `go run main.go`           |
+
+### Sorting Algorithm Complexity Comparison
+
+| Algorithm                | Best Case     | Average Case  | Worst Case    | Space Complexity | Stable |
+|--------------------------|---------------|---------------|---------------|------------------|--------|
+| **Bubble Sort**          | 🟢 Ω(n)       | 🔴 Θ(n²)      | 🔴 O(n²)      | O(1)             | ✅      |
+| **Modified Bubble Sort** | 🟢 Ω(n)       | 🔴 Θ(n²)      | 🔴 O(n²)      | O(1)             | ✅      |
+| **Insertion Sort**       | 🟢 Ω(n)       | 🔴 Θ(n²)      | 🔴 O(n²)      | O(1)             | ✅      |
+| **Selection Sort**       | 🔴 Ω(n²)      | 🔴 Θ(n²)      | 🔴 O(n²)      | O(1)             | ❌      |
+| **Merge Sort**           | 🟡 Ω(n log n) | 🟡 Θ(n log n) | 🟡 O(n log n) | O(n)             | ✅      |
+| **Quick Sort**           | 🟡 Ω(n log n) | 🟡 Θ(n log n) | 🔴 O(n²)      | O(log n)         | ❌      |
+| **Counting Sort**        | 🟡 Ω(n + k)   | 🟢 Θ(n + k)   | 🟢 O(n + k)   | O(k)             | ✅      |
+
+Legend:
+- **🟢 Green:** Best Performance
+- **🟡 Yellow:** Moderate Performance
+- **🔴 Red:** Poor Performance 
+- **✅ Stable Sorting:**  means the algorithm preserves the relative order of equal elements, while ❌ means it does not.
+

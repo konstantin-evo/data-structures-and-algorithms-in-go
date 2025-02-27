@@ -121,3 +121,4 @@ Observations:
 | 7-04 | Selection Sort       | Implements selection sort                                       | O(n^2)                               | `cd 07-sorting/04-selection-sort` <br> `go run main.go`       |
 | 7-05 | Merge Sort           | Implements merge sort                                           | O(n * log n)                         | `cd 07-sorting/05-merge-sort` <br> `go run main.go`           |
 | 7-06 | Quick Sort           | Implements quick sort with efficient partitioning               | avg: O(n * log n) <br> worst: O(n^2) | `cd 07-sorting/06-quick-sort` <br> `go run main.go`           |
+| 7-07 | Counting Sort        | Implements counting sort for integer arrays                     | O(n + k)                             | `cd 07-sorting/07-count-sort` <br> `go run main.go`           |

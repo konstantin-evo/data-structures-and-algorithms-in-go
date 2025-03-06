@@ -11,7 +11,7 @@ contains detailed guides, hands-on coding exercises, and thorough explanations o
 1. [Arrays](#arrays)
 2. [Recursive Functions](#recursive-functions)
 3. [Stack](#stack-operations)
-4. Queue
+4. [Queue](#queue-operations)
 5. [Tree](#tree-operations)
 6. Binary Search Tree
 7. [Sorting](#sorting)
@@ -72,6 +72,12 @@ A string consisting solely of `(`, `)`, `{`, `}`, `[`, and `]`.
 
 **Output**  
 Return `true` if the parentheses are balanced. Otherwise, return `false`.
+
+## Queue Operations
+
+| No.  | Task              | Description                    | Complexity                                                                                                          | How to Run                                               |
+|------|-------------------|--------------------------------|---------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
+| 4-01 | Queue Using Array | Implements a queue using Array | Enqueue(): O(1) <br> Dequeue(): O(1) <br> Front(): O(1) <br> IsEmpty(): O(1) <br> Length(): O(1) <br> Print(): O(n) | `cd 04-queue/01-queue-using-array` <br> `go run main.go` |
 
 ## Tree Operations
 

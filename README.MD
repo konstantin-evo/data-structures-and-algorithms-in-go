@@ -75,11 +75,12 @@ Return `true` if the parentheses are balanced. Otherwise, return `false`.
 
 ## Queue Operations
 
-| No.  | Task                             | Description                                   | Complexity                                                                                                          | How to Run                                                             |
-|------|----------------------------------|-----------------------------------------------|---------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
-| 4-01 | Queue Using Array                | Implements a queue using Array                | Enqueue(): O(1) <br> Dequeue(): O(1) <br> Front(): O(1) <br> IsEmpty(): O(1) <br> Length(): O(1) <br> Print(): O(n) | `cd 04-queue/01-queue-using-array` <br> `go run main.go`               |
-| 4-02 | Queue Using Linked List          | Implements a queue using Linked List          | Add(): O(1) <br> Remove(): O(1) <br> Peek(): O(1) <br> IsEmpty(): O(1) <br> Size(): O(1) <br> Print(): O(n)         | `cd 04-queue/02-queue-using-linkedlist` <br> `go run main.go`          |
-| 4-03 | Queue Using Circular Linked List | Implements a queue using Circular Linked List | Add(): O(1) <br> Remove(): O(1) <br> Peek(): O(1) <br> IsEmpty(): O(1) <br> Size(): O(1) <br> Print(): O(n)         | `cd 04-queue/03-queue-using-circular-linkedlist` <br> `go run main.go` |
+| No.  | Task                             | Description                                   | Complexity                                                                                                                                    | How to Run                                                             |
+|------|----------------------------------|-----------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| 4-01 | Queue Using Array                | Implements a queue using Array                | Enqueue(): O(1) <br> Dequeue(): O(1) <br> Front(): O(1) <br> IsEmpty(): O(1) <br> Length(): O(1) <br> Print(): O(n)                           | `cd 04-queue/01-queue-using-array` <br> `go run main.go`               |
+| 4-02 | Queue Using Linked List          | Implements a queue using Linked List          | Add(): O(1) <br> Remove(): O(1) <br> Peek(): O(1) <br> IsEmpty(): O(1) <br> Size(): O(1) <br> Print(): O(n)                                   | `cd 04-queue/02-queue-using-linkedlist` <br> `go run main.go`          |
+| 4-03 | Queue Using Circular Linked List | Implements a queue using Circular Linked List | Add(): O(1) <br> Remove(): O(1) <br> Peek(): O(1) <br> IsEmpty(): O(1) <br> Size(): O(1) <br> Print(): O(n)                                   | `cd 04-queue/03-queue-using-circular-linkedlist` <br> `go run main.go` |
+| 4-04 | Deque Using Doubly Linked List   | Implements a Deque using a Doubly Linked List | AddFront(): O(1) <br> AddBack(): O(1) <br> RemoveFront(): O(1) <br> RemoveBack(): O(1) <br> Peek(): O(1) <br> Size(): O(1) <br> Print(): O(n) | `cd 04-queue/04-deque` <br> `go run main.go`                           |
 
 ## Tree Operations
 

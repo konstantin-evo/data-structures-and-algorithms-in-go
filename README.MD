@@ -11,7 +11,7 @@ contains detailed guides, hands-on coding exercises, and thorough explanations o
 1. [Arrays](#arrays)
 2. [Recursive Functions](#recursive-functions)
 3. [Stack](#stack-operations)
-4. Queue
+4. [Queue](#queue-operations)
 5. [Tree](#tree-operations)
 6. Binary Search Tree
 7. [Sorting](#sorting)
@@ -72,6 +72,18 @@ A string consisting solely of `(`, `)`, `{`, `}`, `[`, and `]`.
 
 **Output**  
 Return `true` if the parentheses are balanced. Otherwise, return `false`.
+
+## Queue Operations
+
+| No.  | Task                             | Description                                   | Complexity                                                                                                                                    | How to Run                                                             |
+|------|----------------------------------|-----------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| 4-01 | Queue Using Array                | Implements a queue using Array                | Enqueue(): O(1) <br> Dequeue(): O(1) <br> Front(): O(1) <br> IsEmpty(): O(1) <br> Length(): O(1) <br> Print(): O(n)                           | `cd 04-queue/01-queue-using-array` <br> `go run main.go`               |
+| 4-02 | Queue Using Linked List          | Implements a queue using Linked List          | Add(): O(1) <br> Remove(): O(1) <br> Peek(): O(1) <br> IsEmpty(): O(1) <br> Size(): O(1) <br> Print(): O(n)                                   | `cd 04-queue/02-queue-using-linkedlist` <br> `go run main.go`          |
+| 4-03 | Queue Using Circular Linked List | Implements a queue using Circular Linked List | Add(): O(1) <br> Remove(): O(1) <br> Peek(): O(1) <br> IsEmpty(): O(1) <br> Size(): O(1) <br> Print(): O(n)                                   | `cd 04-queue/03-queue-using-circular-linkedlist` <br> `go run main.go` |
+| 4-04 | Deque Using Doubly Linked List   | Implements a Deque using a Doubly Linked List | AddFront(): O(1) <br> AddBack(): O(1) <br> RemoveFront(): O(1) <br> RemoveBack(): O(1) <br> Peek(): O(1) <br> Size(): O(1) <br> Print(): O(n) | `cd 04-queue/04-deque` <br> `go run main.go`                           |
+| 4-05 | Queue Using Stack                | Implements a queue using two stacks           | Add(): O(1) <br> Remove(): Amortized O(1) <br> Peek(): Amortized O(1) <br> IsEmpty(): O(1) <br> Length(): O(1) <br> Print(): O(n)             | `cd 04-queue/05-queue-using-stack` <br> `go run main.go`               |
+| 4-06 | Reverse Queue                    | Reverses a queue using a stack                | O(n)                                                                                                                                          | `cd 04-queue/06-reverse-queue` <br> `go run main.go`                   |
+| 4-07 | Reverse K Elements in a Queue    | Reverses the first K elements in a queue      | O(n)                                                                                                                                          | `cd 04-queue/07-reverse-k-elements-in-a-queue` <br> `go run main.go`   |
 
 ## Tree Operations
 

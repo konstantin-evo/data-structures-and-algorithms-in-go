@@ -10,6 +10,8 @@
 /01-arrays/09-smallest-positive-missing-number/.idea/
 /01-arrays/10-maximum-minimum-array/.idea/
 /01-arrays/11-array-index-maximum-difference/.idea/
+/01-arrays/12-partitioning-of-0s-and-1s/.idea/
+/01-arrays/13-dutch-national-flag-problem/
 /02-recursion/01-print-base-16-integers/.idea/
 /02-recursion/02-greatest-common-divisor/.idea/
 /02-recursion/03-fibonacci-numbers/.idea/
@@ -39,5 +41,10 @@
 /07-sorting/05-merge-sort/.idea/
 /07-sorting/06-quick-sort/.idea/
 /07-sorting/07-count-sort/.idea/
-/01-arrays/12-partitioning-of-0s-and-1s/.idea/
-/01-arrays/13-dutch-national-flag-problem/
+/04-queue/01-queue-using-array/.idea/
+/04-queue/02-queue-using-linkedlist/.idea/
+/04-queue/03-queue-using-circular-linkedlist/.idea/
+/04-queue/04-deque/.idea/
+/04-queue/05-queue-using-stack/.idea/
+/04-queue/06-reverse-queue/.idea/
+/07-sorting/07-count-sort/

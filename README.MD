@@ -97,6 +97,7 @@ Return `true` if the parentheses are balanced. Otherwise, return `false`.
 | 5-06 | DepthFirst Traversal                      | Implements and prints the depth-first traversal without recursion  | O(n)       | `cd 05-tree/06-print-depth-first-without-recursion` <br> `go run main.go`                    |
 | 5-07 | Level-Order Line-by-Line Using Two Queues | Implements level-order traversal line by line using two queues     | O(n)       | `cd 05-tree/07-print-level-order-line-by-line-using-two-queues` <br> `go run main.go`        |
 | 5-08 | Level-Order Line-by-Line Using One Queue  | Implements level-order traversal line by line using a single queue | O(n)       | `cd 05-tree/08-print-a-tree-in-level-order-line-by-line-using-a-queue` <br> `go run main.go` |
+| 5-09 | Print Spiral (zig-zag) Tree               | Implements and prints the spiral (zig-zag) order traversal         | O(n)       | `cd 05-tree/09-print-spiral-tree` <br> `go run main.go`                                      |
 
 ### Comparison of tree traversals
 

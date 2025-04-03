@@ -99,6 +99,7 @@ Return `true` if the parentheses are balanced. Otherwise, return `false`.
 | 5-08 | Level-Order Line-by-Line Using One Queue  | Implements level-order traversal line by line using a single queue | O(n)       | `cd 05-tree/08-print-a-tree-in-level-order-line-by-line-using-a-queue` <br> `go run main.go` |
 | 5-09 | Print Spiral (zig-zag) Tree               | Implements and prints the spiral (zig-zag) order traversal         | O(n)       | `cd 05-tree/09-print-spiral-tree` <br> `go run main.go`                                      |
 | 5-10 | Nth PreOrder Node                         | Finds and prints the Nth node in PreOrder traversal                | O(n)       | `cd 05-tree/10-nth-pre-order` <br> `go run main.go`                                          |
+| 5-11 | Nth PostOrder Node                        | Finds and prints the Nth node in PostOrder traversal               | O(n)       | `cd 05-tree/11-nth-post-order` <br> `go run main.go`                                         |
 
 ### Comparison of tree traversals
 
